@@ -1,0 +1,72 @@
+img {
+  width: 500px;
+}
+#first-div {
+  color: #ccc;
+}
+#second-div {
+  color: pink;
+}
+#third-div {
+  color: skyblue;
+}
+/* Class Selector*/
+.text-center {
+  text-align: center;
+}
+/* Element Selector */
+h1 {
+  text-decoration: underline;
+}
+/* Class tryout */
+.can-fly {
+  color: red;
+}
+/* Choose 2 class (OR) */
+.can-fly,
+.bug {
+  color: green;
+}
+/* Choose 2 class (AND)*/
+.animal.run {
+   text-decoration: underline;
+}
+/* Combine different selector (AND) */
+div.animal {
+  background-color: yellow;
+}
+/* 多層次練習 */
+div img {
+  /* 框線 {寬度}{實線/虛線}{顏色} */
+  border: 5px solid red;
+}
+/* 子代選擇器 */
+div > img {
+  width: 400px;
+}
+a {
+  color: #ccc;
+}
+a:hover {
+  color: black;
+}
+.button {
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 50px;
+  display: inline-block
+}
+.button:hover {
+  color: black;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #eee;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 50px;
+  display: inline-block
+}
